@@ -1,0 +1,86 @@
+Air_Elemental
+0 The@ultimate@elemental@in@terms@of@attack@and@defence. NoEff m 1 1 None
+
+Earth_Elemental
+3 Dreams@of@being@a@5@mana@7/8. NoEff m 4 4 None
+
+Bone_Golem
+2 Gain@+1/+1@whenever@a@minion@leaves@play. B11~ m 1 3 Triggered minleave
+
+Fire_Elemental
+2 Whenever@an@opponent's@minion@enters@play,@deal@1@damage@to@it. D1M~ m 2 2 Triggered minenter
+
+Potion_Seller
+2 At@the@end@of@your@turn,@all@your@minions@gain@+0/+1. P01~ m 1 3 Triggered endturn
+
+Novice_Pyromancer
+1 Deal@1@damage@to@target@minion. D1~ m 0 1 ActivatedT 1
+
+Apprentice_Summoner
+1 Summon@a@1/1@air@elemental. M01~ m 1 1 Activated 1
+
+Master_Summoner
+3 Summon@up@to@three@1/1@air@elementals. M03~ m 2 3 Activated 2
+
+Banish
+2 Destroy@target@minion@or@ritual. KM~ s T
+
+Unsummon
+1 Return@target@minion@to@its@owner's@hand. UM~ s T
+
+Recharge
+1 Your@ritual@gains@3@charges. C3~ s A
+
+Disenchant
+1 Destroy@the@top@enchantment@on@target@minion. d1~ s T
+
+Raise_Dead
+1 Ressurect@the@top@minion@in@your@graveyard@and@set@its@defence@to@1. R~ s A
+
+Blizzard
+3 Deal@2@damage@to@all@enemy@minions. D2A~ s A
+
+Giant_Strength
+1 "Who@to@crush?" E+2+2~ e Stats +2 +2
+
+Enrage
+2 I@StaaAAAyAAaayAaayaaAy@alive... E*2*2~ e Stats *2 *2
+
+Haste
+1 Enchanted@minion@gains@+1@action@each@turn. A1~ e always
+
+Magic_Fatigue
+0 Enchanted@minion's@activated@ability@costs@2@more. F2~ e always
+
+Silence
+1 Enchanted@minion@cannot@use@abilities. S~ e always
+
+Dark_Ritual
+0 At@the@start@of@your@turn,@gain@1@magic. m+1U r 1 5 startturn
+
+Aura_of_Power
+1 Whenever@a@minion@enters@play@under@your@control,@it@gains@+1/+1. B11~ r 1 4 minenter
+
+Standstill
+2 Whenever@a@minion@enters@play,@destroy@it. KM~ r 2 4 minenter
+
+Dark_Magician
+7 The@ultimate@wizard@in@terms@of@attack@and@defence. NoEff m 8 6 None
+
+Ivory_Dragon
+8 Virtually@indestructable,@few@have@seen@it@and@lived@to@tell@the@tale. NoEff m 10 8 None
+
+The_Unstoppable_Exodia
+10 Impossible!@Nobody@has@ever@done@that@in@the@history@of@Sorcery! NoEff m 12 12 None
+
+Skillstrike
+6 Deal@4@damage@to@all@enemy@minions. D4A~ s A
+
+Super_Pyromancer
+5 Deal@3@damage@to@target@minion. D3~ m 3 4 ActivatedT 2
+
+Gee_Golly_It's_Windy!
+3 Fill@your@board@with@1/1@air@elementals. M05~ s A
+
+Water_Elemental
+4 Soft@and@wet. NoEff m 3 6 None
